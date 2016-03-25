@@ -1,0 +1,36 @@
+
+chazhou@CHAZHOU-US ~/dev/p5js
+$ ./git.sh
+++ echo '# p5js'
+++ git init
+Initialized empty Git repository in /cygdrive/c/Users/chazhou/dev/p5js/.git/
+++ git add README.md
+++ git commit -m 'first commit'
+[master (root-commit) 0b7799c] first commit
+ Committer: chazhou <chazhou@CHAZHOU-US.oradev.oraclecorp.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+++ git remote add origin https://github.com/ucnwusc/p5js.git
+++ git push -u origin master
+Username for 'https://github.com':
+Password for 'https://ucnwusc@github.com':
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 234 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/ucnwusc/p5js.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+chazhou@CHAZHOU-US ~/dev/p5js
+

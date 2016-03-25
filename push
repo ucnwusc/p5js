@@ -1,0 +1,4 @@
+set -x
+git commit -m "first commit"
+git remote add origin https://github.com/ucnwusc/p5js.git
+git push -u origin master
